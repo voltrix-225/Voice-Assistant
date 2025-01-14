@@ -6,7 +6,7 @@ op_query("How may I be of service?")
 while True:
     
     query = listen().lower().replace("tell me",'').replace("what is",'')
-
+meghaaaaaaaaaaaaaaaa khaushikkkkkkkkkkkkkk
     if "who is" in query :
         article = query.replace('who is','')
         answer = wikipedia.summary(article,1)
@@ -18,7 +18,7 @@ while True:
         answer = f"The day today is {day}"
         op_query(answer)
 
-    
+    he is in love with senior.
     elif "date" in query:
         dt = curr_td.strftime("%d")
         month = curr_td.strftime("%B")
